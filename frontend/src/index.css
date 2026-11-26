@@ -1,0 +1,22 @@
+:root {
+    /* Regional */
+    --regional-train: #8f1a95;
+    --regional-bus: #a57fb2;
+
+    /* Metro */
+    --dark-blue-train: #152c6b;
+    --replacement: #fe5000;
+    --light-blue-train: #34ace1;
+    --green-train: #028430;
+    --pink-train: #f178af;
+    --red-train: #be1014;
+    --yellow-train: #ffbe00;
+    --metro-bus: #ff8200;
+}
+
+body {
+    min-height: 100svh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

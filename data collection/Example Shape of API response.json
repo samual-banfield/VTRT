@@ -1,0 +1,41 @@
+{
+    "header": {
+        "gtfsRealtimeVersion": "string",
+        "incrementality": "string",
+        "timestamp": "string"
+    },
+    "entity": [
+        {
+            "id": "string",
+            "tripUpdate": {
+                "trip": {
+                    "tripId": "string",
+                    "startTime": "string",
+                    "startDate": "string",
+                    "scheduleRelationship": "string",
+                    "routeId": "string"
+                },
+                "stopTimeUpdate": [
+                    {
+                        "stopSequence": "number",
+                        "arrival": {
+                            "delay": "number",
+                            "time": "string"
+                        },
+                        "stopId": "string",
+                        "scheduleRelationship": "string",
+                        "departure": {
+                            "delay": "number",
+                            "time": "string"
+                        }
+                    }
+                ]
+            },
+            "feed": "string"
+        }
+    ]
+}
+
+// The API Key is to be used in the request header. Header name is 'KeyID'.
+// API endpoint rate limit - Metro Train (24 calls per 60 seconds), Tram (24 calls per 60 seconds), Bus (24 calls per 60 seconds)
+// Data Refresh rate - (Metro Train - Near real-time), (Tram - Every 60 seconds), (Bus - Near real-time)

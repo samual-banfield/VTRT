@@ -1,0 +1,2 @@
+API_KEY = # You can get this from https://opendata-signin.transport.vic.gov.au/login?client_id=19r93qk777d548j9bhr8ro1c74&nonce=11b6ff9dd4d9505664e2be1b3036295dbbf2820f72133fb5c1e314d4f464840e&redirect_uri=https%3A%2F%2Fopendata.transport.vic.gov.au%2Fopenid%2Fcallback&response_type=code&scope=openid+profile+email&state=eyJjYW1lX2Zyb20iOiAiLyJ9
+# DATABASE_URL = # RDS Connection String
